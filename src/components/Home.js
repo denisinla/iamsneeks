@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className="jumbotron">
-      <div className="logo"></div>
+    <section className='jumbotron'>
+      <div className='logo'></div>
     </section>
   )
 }
