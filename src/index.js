@@ -9,10 +9,10 @@ import routes from './config/routes'
 import ga from 'react-ga'
 
 // GA content
-let options = { debug: true }
+let options = { debug: false }
 ga.initialize('UA-65257432-2', options)
 
-function logPageView() {
+function logPageView () {
   ga.pageview(this.state.location.pathname)
 }
 
